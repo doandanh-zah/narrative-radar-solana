@@ -1,0 +1,1238 @@
+{
+  "generatedAt": "2026-02-13T20:18:15.311Z",
+  "window": {
+    "days": 14
+  },
+  "sources": [
+    {
+      "id": "solana-blog",
+      "label": "Solana Blog",
+      "url": "https://solana.com/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "helius-blog",
+      "label": "Helius Blog",
+      "url": "https://www.helius.dev/blog/rss.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "superteam",
+      "label": "Superteam",
+      "url": "https://superteam.fun/blog/rss.xml",
+      "kind": "rss"
+    }
+  ],
+  "narratives": [
+    {
+      "id": "narrative:ai",
+      "title": "AI Agents x Solana Tooling",
+      "score": 443.7087753420375,
+      "why": [
+        "Increased developer activity (recent pushes + star-weighted scoring).",
+        "Ranked by a heuristic velocity score (recency + lightweight popularity)."
+      ],
+      "evidence": [
+        {
+          "title": "alsk1992/CloddsBot",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "sourceLabel": "GitHub: AI x Solana"
+        },
+        {
+          "title": "rahuldounde21/Nex-T1-Research",
+          "url": "https://github.com/rahuldounde21/Nex-T1-Research",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        },
+        {
+          "title": "sachinrai308/Unity-Skills",
+          "url": "https://github.com/sachinrai308/Unity-Skills",
+          "sourceLabel": "GitHub: AI x Solana"
+        },
+        {
+          "title": "grijinha/solana-dapp",
+          "url": "https://github.com/grijinha/solana-dapp",
+          "sourceLabel": "GitHub: AI x Solana"
+        },
+        {
+          "title": "blackboxfarm/blackboxfarm",
+          "url": "https://github.com/blackboxfarm/blackboxfarm",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        }
+      ],
+      "ideas": [
+        {
+          "title": "Agent-safe action router",
+          "description": "Policy-gated intent router for wallets + dApps, with receipts + spend caps."
+        },
+        {
+          "title": "On-chain narrative scout agent",
+          "description": "Agent that tracks signals, generates weekly narrative briefs, and posts to a public hub."
+        },
+        {
+          "title": "Security-first agent sandbox",
+          "description": "Simulate Solana tx outcomes + risk scoring before signing."
+        }
+      ],
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "narrative:defi",
+      "title": "DeFi Iteration + New Market Structures",
+      "score": 416.8150575088083,
+      "why": [
+        "Increased developer activity (recent pushes + star-weighted scoring).",
+        "Ranked by a heuristic velocity score (recency + lightweight popularity)."
+      ],
+      "evidence": [
+        {
+          "title": "beautifullminds/ANTverse",
+          "url": "https://github.com/beautifullminds/ANTverse",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        },
+        {
+          "title": "thuraaungzaw69/solana-trading-bot-service",
+          "url": "https://github.com/thuraaungzaw69/solana-trading-bot-service",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        },
+        {
+          "title": "kotosolos/web3-deal-discovery-nft-coupons",
+          "url": "https://github.com/kotosolos/web3-deal-discovery-nft-coupons",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        },
+        {
+          "title": "sinhnguyen0802/solana-program-vault",
+          "url": "https://github.com/sinhnguyen0802/solana-program-vault",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        },
+        {
+          "title": "akkiakshay-26/megagecko-pool-fetcher",
+          "url": "https://github.com/akkiakshay-26/megagecko-pool-fetcher",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        }
+      ],
+      "ideas": [
+        {
+          "title": "Liquidity insight radar",
+          "description": "Detect liquidity shifts + new primitives and generate strategy ideas."
+        },
+        {
+          "title": "Perp risk dashboard",
+          "description": "Explain liquidation clusters + open interest changes with alerts."
+        },
+        {
+          "title": "Composable DeFi lego index",
+          "description": "Map protocols + integrations to highlight gaps and build opportunities."
+        }
+      ],
+      "tags": [
+        "defi"
+      ]
+    },
+    {
+      "id": "narrative:token",
+      "title": "Token Extensions / Token-2022 Adoption",
+      "score": 253.87152671386332,
+      "why": [
+        "Increased developer activity (recent pushes + star-weighted scoring).",
+        "Ranked by a heuristic velocity score (recency + lightweight popularity)."
+      ],
+      "evidence": [
+        {
+          "title": "halilege123/Pumpfun-Smart-Contract",
+          "url": "https://github.com/halilege123/Pumpfun-Smart-Contract",
+          "sourceLabel": "GitHub: Token-2022 / Token Extensions"
+        },
+        {
+          "title": "rumyasha/coin-indexing-app-backend",
+          "url": "https://github.com/rumyasha/coin-indexing-app-backend",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        },
+        {
+          "title": "duongeasdfa/Solana-Token-Creation-Platform",
+          "url": "https://github.com/duongeasdfa/Solana-Token-Creation-Platform",
+          "sourceLabel": "GitHub: Token-2022 / Token Extensions"
+        },
+        {
+          "title": "akash-R-A-J/idmap-prism",
+          "url": "https://github.com/akash-R-A-J/idmap-prism",
+          "sourceLabel": "GitHub: Token-2022 / Token Extensions"
+        }
+      ],
+      "ideas": [
+        {
+          "title": "Token Extensions directory",
+          "description": "Live tracker of Token-2022 usage + best-practice templates."
+        },
+        {
+          "title": "Transfer hook commerce",
+          "description": "Payments / loyalty primitives using transfer hooks + receipts."
+        },
+        {
+          "title": "Issuer compliance toolkit",
+          "description": "Open-source rules engine to encode transfer restrictions and audit logs."
+        }
+      ],
+      "tags": [
+        "token"
+      ]
+    },
+    {
+      "id": "narrative:dflow",
+      "title": "dflow",
+      "score": 70.96441315108426,
+      "why": [
+        "Increased developer activity (recent pushes + star-weighted scoring).",
+        "Ranked by a heuristic velocity score (recency + lightweight popularity)."
+      ],
+      "evidence": [
+        {
+          "title": "ba1nch0d/dflow-mcp",
+          "url": "https://github.com/ba1nch0d/dflow-mcp",
+          "sourceLabel": "GitHub: AI x Solana"
+        }
+      ],
+      "ideas": [
+        {
+          "title": "Narrative-to-ideas API",
+          "description": "Public API that outputs narratives + citations + ranked ideas."
+        },
+        {
+          "title": "Ecosystem signal dashboard",
+          "description": "One page: repos, onchain signals, blog coverage, ranked weekly."
+        },
+        {
+          "title": "Founder briefing generator",
+          "description": "Generate investor-style briefs from evidence links."
+        }
+      ],
+      "tags": [
+        "dflow"
+      ]
+    },
+    {
+      "id": "narrative:0block",
+      "title": "0block",
+      "score": 67.95704324074075,
+      "why": [
+        "Increased developer activity (recent pushes + star-weighted scoring).",
+        "Ranked by a heuristic velocity score (recency + lightweight popularity)."
+      ],
+      "evidence": [
+        {
+          "title": "hungnguyen1509asd/raydium-trading-bot",
+          "url": "https://github.com/hungnguyen1509asd/raydium-trading-bot",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        }
+      ],
+      "ideas": [
+        {
+          "title": "Narrative-to-ideas API",
+          "description": "Public API that outputs narratives + citations + ranked ideas."
+        },
+        {
+          "title": "Ecosystem signal dashboard",
+          "description": "One page: repos, onchain signals, blog coverage, ranked weekly."
+        },
+        {
+          "title": "Founder briefing generator",
+          "description": "Generate investor-style briefs from evidence links."
+        }
+      ],
+      "tags": [
+        "0block"
+      ]
+    },
+    {
+      "id": "narrative:ecosystem",
+      "title": "ecosystem",
+      "score": 67.93519138888888,
+      "why": [
+        "Increased developer activity (recent pushes + star-weighted scoring).",
+        "Ranked by a heuristic velocity score (recency + lightweight popularity)."
+      ],
+      "evidence": [
+        {
+          "title": "corabelbrachiate350/jupiter-launchpad-LFG",
+          "url": "https://github.com/corabelbrachiate350/jupiter-launchpad-LFG",
+          "sourceLabel": "GitHub: DeFi on Solana"
+        }
+      ],
+      "ideas": [
+        {
+          "title": "Narrative-to-ideas API",
+          "description": "Public API that outputs narratives + citations + ranked ideas."
+        },
+        {
+          "title": "Ecosystem signal dashboard",
+          "description": "One page: repos, onchain signals, blog coverage, ranked weekly."
+        },
+        {
+          "title": "Founder briefing generator",
+          "description": "Generate investor-style briefs from evidence links."
+        }
+      ],
+      "tags": [
+        "ecosystem"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "gh:alsk1992/CloddsBot",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "publishedAt": "2026-02-13T20:03:23Z",
+      "score": 84.10718324312329,
+      "tags": [
+        "ai",
+        "agi",
+        "arbitrage",
+        "claude",
+        "crypto",
+        "defi",
+        "ethereum",
+        "futures"
+      ],
+      "summary": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Age"
+    },
+    {
+      "id": "gh:rahuldounde21/Nex-T1-Research",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "rahuldounde21/Nex-T1-Research",
+      "url": "https://github.com/rahuldounde21/Nex-T1-Research",
+      "publishedAt": "2026-02-13T19:15:44Z",
+      "score": 73.93377741327963,
+      "tags": [
+        "ai",
+        "defi",
+        "blockchain",
+        "blockchain-technology",
+        "defai",
+        "defai-agent",
+        "ethereum",
+        "llm"
+      ],
+      "summary": "🤖 Drive autonomous DeFi trading with the Nex-T1 multi-agent orchestration framework for efficient, decentralized financial strategies."
+    },
+    {
+      "id": "gh:sachinrai308/Unity-Skills",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "sachinrai308/Unity-Skills",
+      "url": "https://github.com/sachinrai308/Unity-Skills",
+      "publishedAt": "2026-02-13T20:17:30Z",
+      "score": 72.77016370460403,
+      "tags": [
+        "ai",
+        "claude-code",
+        "claude-commands",
+        "claude-md",
+        "claude-skills",
+        "claude-subagents",
+        "hotbar",
+        "inventory"
+      ],
+      "summary": "🤖 Automate Unity Editor tasks with AI using JSON command files for efficient scene management, GameObject handling, and configuration."
+    },
+    {
+      "id": "gh:halilege123/Pumpfun-Smart-Contract",
+      "kind": "github_repo",
+      "sourceId": "token-extensions",
+      "sourceLabel": "GitHub: Token-2022 / Token Extensions",
+      "title": "halilege123/Pumpfun-Smart-Contract",
+      "url": "https://github.com/halilege123/Pumpfun-Smart-Contract",
+      "publishedAt": "2026-02-13T19:02:05Z",
+      "score": 72.66544328793736,
+      "tags": [
+        "token",
+        "anchor",
+        "backend",
+        "base",
+        "contract",
+        "frontend",
+        "launcher",
+        "meteora"
+      ],
+      "summary": "🚀 Build and launch memecoins effortlessly with the Pumpfun smart contract, featuring liquidity management and advanced token functionalities."
+    },
+    {
+      "id": "gh:beautifullminds/ANTverse",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "beautifullminds/ANTverse",
+      "url": "https://github.com/beautifullminds/ANTverse",
+      "publishedAt": "2026-02-13T20:15:25Z",
+      "score": 71.00637099830648,
+      "tags": [
+        "defi",
+        "nft",
+        "antverse",
+        "bmverse",
+        "bsc",
+        "metaverse",
+        "solana",
+        "solidity"
+      ],
+      "summary": "ANTVERSE is the charismatic metaverse ecosystem of BMverse, combining NFTs, DeFi, gaming, and community engagement."
+    },
+    {
+      "id": "gh:grijinha/solana-dapp",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "grijinha/solana-dapp",
+      "url": "https://github.com/grijinha/solana-dapp",
+      "publishedAt": "2026-02-13T19:50:16Z",
+      "score": 70.97142703997315,
+      "tags": [
+        "ai",
+        "ai-agent",
+        "anchor-framework",
+        "blockchain",
+        "boilerplate",
+        "defi",
+        "ethereum",
+        "nextjs"
+      ],
+      "summary": "🚀 Create and initialize Solana apps quickly with a single command, using official and external templates for efficient development."
+    },
+    {
+      "id": "gh:blackboxfarm/blackboxfarm",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "blackboxfarm/blackboxfarm",
+      "url": "https://github.com/blackboxfarm/blackboxfarm",
+      "publishedAt": "2026-02-13T19:49:20Z",
+      "score": 70.97014412330648,
+      "tags": [
+        "ai",
+        "defi",
+        "crypto",
+        "holder-distribution-bot",
+        "reactjs",
+        "rust",
+        "solana",
+        "tradingbot"
+      ],
+      "summary": "Advanced DeFi trading infrastructure for Solana — holder analytics, trading bots, and community campaigns"
+    },
+    {
+      "id": "gh:thuraaungzaw69/solana-trading-bot-service",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "thuraaungzaw69/solana-trading-bot-service",
+      "url": "https://github.com/thuraaungzaw69/solana-trading-bot-service",
+      "publishedAt": "2026-02-13T19:47:43Z",
+      "score": 70.96789875293611,
+      "tags": [
+        "defi",
+        "auto-trading",
+        "bundler",
+        "chat-application",
+        "crypto",
+        "jupiter-aggregator",
+        "memecoin",
+        "meteora"
+      ],
+      "summary": "🤖 Automate your trading on Solana with this high-performance bot service, designed for efficient DeFi operations and seamless integration."
+    },
+    {
+      "id": "gh:ba1nch0d/dflow-mcp",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "ba1nch0d/dflow-mcp",
+      "url": "https://github.com/ba1nch0d/dflow-mcp",
+      "publishedAt": "2026-02-13T19:45:13Z",
+      "score": 70.96441315108426,
+      "tags": [
+        "dflow",
+        "ibrl",
+        "kalshi",
+        "kalshi-api",
+        "mcp",
+        "mcp-protocol",
+        "mcp-server",
+        "mcp-tools"
+      ],
+      "summary": "📊 Access Kalshi prediction market data effortlessly with DFlow MCP, featuring tools for events, trades, and real-time analytics."
+    },
+    {
+      "id": "gh:jose121221221212ajsjajs/Automatic-Ultimate-Create-Wallets-for-Airdrop",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "jose121221221212ajsjajs/Automatic-Ultimate-Create-Wallets-for-Airdrop",
+      "url": "https://github.com/jose121221221212ajsjajs/Automatic-Ultimate-Create-Wallets-for-Airdrop",
+      "publishedAt": "2026-02-13T19:39:13Z",
+      "score": 70.95607981775092,
+      "tags": [
+        "ai",
+        "airdrop",
+        "algorand",
+        "aptos",
+        "automation",
+        "bitcoin",
+        "blockchain",
+        "cardano"
+      ],
+      "summary": "💼 Automate wallet creation for airdrops across multiple blockchains to streamline your crypto projects and enhance efficiency."
+    },
+    {
+      "id": "gh:kotosolos/web3-deal-discovery-nft-coupons",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "kotosolos/web3-deal-discovery-nft-coupons",
+      "url": "https://github.com/kotosolos/web3-deal-discovery-nft-coupons",
+      "publishedAt": "2026-02-13T19:21:04Z",
+      "score": 70.93088486404721,
+      "tags": [
+        "defi",
+        "nft",
+        "anchor",
+        "blockchain",
+        "deals",
+        "hackathon",
+        "marketplace",
+        "metaplex"
+      ],
+      "summary": "🛍️ Discover exclusive deals with user-owned NFTs on this borderless marketplace, merging the power of DeFi with everyday savings."
+    },
+    {
+      "id": "gh:sinhnguyen0802/solana-program-vault",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "sinhnguyen0802/solana-program-vault",
+      "url": "https://github.com/sinhnguyen0802/solana-program-vault",
+      "publishedAt": "2026-02-13T20:16:26Z",
+      "score": 67.99748307870371,
+      "tags": [
+        "defi",
+        "anchor",
+        "assembly",
+        "mollusk",
+        "pinocchio",
+        "rust",
+        "solana",
+        "turbine3"
+      ],
+      "summary": "🔒 Build secure Solana programs like vaults, escrow services, and DeFi protocols with this robust starting point."
+    },
+    {
+      "id": "gh:PHalla0/opencoins",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "PHalla0/opencoins",
+      "url": "https://github.com/PHalla0/opencoins",
+      "publishedAt": "2026-02-13T20:16:11Z",
+      "score": 67.9971224537037,
+      "tags": [
+        "token",
+        "ai",
+        "blockchain",
+        "crowcpp",
+        "crypto",
+        "cryptography",
+        "defi",
+        "evm"
+      ],
+      "summary": "🌐 Deploy tokens easily on EVM and Solana networks with our AI-driven plugin, featuring automated liquidity pools and fee collection."
+    },
+    {
+      "id": "gh:Kacper-ctrl-wq/AI-Tracker",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "Kacper-ctrl-wq/AI-Tracker",
+      "url": "https://github.com/Kacper-ctrl-wq/AI-Tracker",
+      "publishedAt": "2026-02-13T20:12:53Z",
+      "score": 67.99253912037037,
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-monitoring",
+        "body-tracking",
+        "explainable-ml",
+        "face-position",
+        "face-recognition",
+        "gender-prediction"
+      ],
+      "summary": "🚀 Explore how to optimize large language models through context engineering and the Model Context Protocol for improved performance and efficiency."
+    },
+    {
+      "id": "gh:njfio/kamn",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "njfio/kamn",
+      "url": "https://github.com/njfio/kamn",
+      "publishedAt": "2026-02-13T20:12:25Z",
+      "score": 67.99189097222222,
+      "tags": [
+        "ai",
+        "agent-economy",
+        "ai-agents",
+        "audit-trail",
+        "compliance",
+        "decentralized-identity",
+        "did",
+        "escrow"
+      ],
+      "summary": " Trust infrastructure for the agent economy. Identity, escrow, settlement, and audit trails —  zero-dependency Rust with real secp256k1 signing and USDC settlement via Solana."
+    },
+    {
+      "id": "gh:Pablo11111544545/agent-contracts",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "Pablo11111544545/agent-contracts",
+      "url": "https://github.com/Pablo11111544545/agent-contracts",
+      "publishedAt": "2026-02-13T20:09:44Z",
+      "score": 67.98816412037037,
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-safety",
+        "aiagent",
+        "blockchain",
+        "ethereum",
+        "fourdotmeme",
+        "infernet-sdk"
+      ],
+      "summary": "🤖 Build and manage contracts for agents easily with this Python library, ensuring efficient interactions and consistent deployments."
+    },
+    {
+      "id": "gh:PINGySHITBOX/claude-code-showcase",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "PINGySHITBOX/claude-code-showcase",
+      "url": "https://github.com/PINGySHITBOX/claude-code-showcase",
+      "publishedAt": "2026-02-13T20:09:32Z",
+      "score": 67.98788634259259,
+      "tags": [
+        "ai",
+        "claude-code",
+        "code-samples",
+        "containerization",
+        "devops",
+        "monitoring",
+        "nautex",
+        "open-source"
+      ],
+      "summary": "🚀 Elevate your coding with Claude Code: automate standards, improve practices, and enhance collaboration using powerful LLM agents."
+    },
+    {
+      "id": "gh:VitorBSK/Unit9-Raccoon",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "VitorBSK/Unit9-Raccoon",
+      "url": "https://github.com/VitorBSK/Unit9-Raccoon",
+      "publishedAt": "2026-02-13T20:00:01Z",
+      "score": 67.97466875,
+      "tags": [
+        "ai",
+        "ai-agent",
+        "anchor",
+        "automation",
+        "builder-tools",
+        "cli",
+        "code-generation",
+        "forkable"
+      ],
+      "summary": "🦝 Transform Solana code into reusable modules with Unit09, an on-chain AI raccoon that evolves and supports builders in creating new worlds effortlessly."
+    },
+    {
+      "id": "gh:kazuop/Winmem-Witness",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "kazuop/Winmem-Witness",
+      "url": "https://github.com/kazuop/Winmem-Witness",
+      "publishedAt": "2026-02-13T19:58:03Z",
+      "score": 67.97193726851852,
+      "tags": [
+        "ai",
+        "auditability",
+        "blockchain",
+        "data-pipeline",
+        "docker",
+        "indexer",
+        "merkle-tree",
+        "onchain"
+      ],
+      "summary": "🌐 Preserve Solana projects effortlessly with Winmem, a self-hostable AI runtime that maintains verifiable records even when teams step away."
+    },
+    {
+      "id": "gh:nlgbeji/Actium",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "nlgbeji/Actium",
+      "url": "https://github.com/nlgbeji/Actium",
+      "publishedAt": "2026-02-13T19:57:11Z",
+      "score": 67.97073356481482,
+      "tags": [
+        "ai",
+        "agent",
+        "agentic",
+        "agentic-ai",
+        "agentic-ai-development",
+        "agentic-framework",
+        "aigc",
+        "anchor"
+      ],
+      "summary": "🤖 Empower agents as simple functions with Actium's framework, enabling intelligent code generation and exploration like human developers."
+    },
+    {
+      "id": "gh:viniciussantos2004/strata",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "viniciussantos2004/strata",
+      "url": "https://github.com/viniciussantos2004/strata",
+      "publishedAt": "2026-02-13T19:54:36Z",
+      "score": 67.96714560185185,
+      "tags": [
+        "ai",
+        "bgt",
+        "cargo",
+        "database",
+        "java",
+        "linux",
+        "market-risk",
+        "mod"
+      ],
+      "summary": "📊 Manage your AI initiatives effectively with Strata, offering portfolio views, pipeline tracking, cost monitoring, and compliance documentation in one dashboard."
+    },
+    {
+      "id": "gh:sekskate56/marinade-finance-mcp-server",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "sekskate56/marinade-finance-mcp-server",
+      "url": "https://github.com/sekskate56/marinade-finance-mcp-server",
+      "publishedAt": "2026-02-13T19:52:04Z",
+      "score": 67.96362708333334,
+      "tags": [
+        "ai",
+        "blockchain",
+        "marinade-finance",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "solana"
+      ],
+      "summary": "🚀 Enhance your interaction with Marinade Finance on Solana. Quickly manage staking, check mSOL balances, and access official documentation."
+    },
+    {
+      "id": "gh:nikeshRajbanshi231/solana-defi-toolkit",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "nikeshRajbanshi231/solana-defi-toolkit",
+      "url": "https://github.com/nikeshRajbanshi231/solana-defi-toolkit",
+      "publishedAt": "2026-02-13T19:50:43Z",
+      "score": 67.96176548611112,
+      "tags": [
+        "ai",
+        "defi",
+        "amm",
+        "blockchain",
+        "crypto",
+        "jito",
+        "jupiter",
+        "orca"
+      ],
+      "summary": "🛠️ Track your portfolio, optimize yields, and automate trades with the Solana DeFi Toolkit—a powerful suite of tools for DeFi on the Solana blockchain."
+    },
+    {
+      "id": "gh:akkiakshay-26/megagecko-pool-fetcher",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "akkiakshay-26/megagecko-pool-fetcher",
+      "url": "https://github.com/akkiakshay-26/megagecko-pool-fetcher",
+      "publishedAt": "2026-02-13T19:47:23Z",
+      "score": 67.95713583333333,
+      "tags": [
+        "defi",
+        "arbitrage",
+        "dex",
+        "geckoterminal",
+        "liquidity-analysis",
+        "liquidity-pools",
+        "meteora",
+        "orca"
+      ],
+      "summary": "🦎 Automate pool discovery and configuration for Solana DEXs, enhancing arbitrage trading and DeFi research with ease and precision."
+    },
+    {
+      "id": "gh:hungnguyen1509asd/raydium-trading-bot",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "hungnguyen1509asd/raydium-trading-bot",
+      "url": "https://github.com/hungnguyen1509asd/raydium-trading-bot",
+      "publishedAt": "2026-02-13T19:47:19Z",
+      "score": 67.95704324074075,
+      "tags": [
+        "0block",
+        "bot",
+        "copytrading",
+        "dexscreener",
+        "jito",
+        "mev",
+        "nozomi",
+        "pumpfunswap"
+      ],
+      "summary": "🚀 Automate your trading on Raydium with this efficient bot for optimized strategies and seamless transactions."
+    },
+    {
+      "id": "gh:Nalin-Kaul/-Hexa-Lite-Onboard-to-DeFi",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "Nalin-Kaul/-Hexa-Lite-Onboard-to-DeFi",
+      "url": "https://github.com/Nalin-Kaul/-Hexa-Lite-Onboard-to-DeFi",
+      "publishedAt": "2026-02-13T19:46:03Z",
+      "score": 67.95528398148149,
+      "tags": [
+        "defi",
+        "angular",
+        "bitcoin",
+        "blockchain",
+        "dapp",
+        "ethereum",
+        "finance",
+        "protocol"
+      ],
+      "summary": "🌐 Onboard to DeFi easily; buy, lend, and earn with assets using fiat and top protocols—all within a secure, user-friendly platform."
+    },
+    {
+      "id": "gh:vieta123456/ai-market",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "vieta123456/ai-market",
+      "url": "https://github.com/vieta123456/ai-market",
+      "publishedAt": "2026-02-13T19:43:12Z",
+      "score": 67.95131226851852,
+      "tags": [
+        "ai",
+        "agent",
+        "ai-trading",
+        "aitradingos",
+        "arbitrage",
+        "aster",
+        "autonomous-agents",
+        "exchange"
+      ],
+      "summary": "🧠 Analyze market trends with AI to forecast investments and enhance decision-making using real-time data and advanced analytics."
+    },
+    {
+      "id": "gh:daftpixie/ozskr",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "daftpixie/ozskr",
+      "url": "https://github.com/daftpixie/ozskr",
+      "publishedAt": "2026-02-13T19:40:48Z",
+      "score": 67.94797893518518,
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-influencer",
+        "anthropic",
+        "artificial-intelligence",
+        "blockchain",
+        "claude",
+        "claude-code"
+      ],
+      "summary": "pay-no-mind"
+    },
+    {
+      "id": "gh:Nexxx-q/Mavryk-Wallet",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "Nexxx-q/Mavryk-Wallet",
+      "url": "https://github.com/Nexxx-q/Mavryk-Wallet",
+      "publishedAt": "2026-02-13T19:39:10Z",
+      "score": 67.94572379629629,
+      "tags": [
+        "token",
+        "ai",
+        "algorand",
+        "aptos",
+        "autobot",
+        "automation",
+        "bitcoin",
+        "create-wallet"
+      ],
+      "summary": "🚀 Automate Mavryk blockchain tasks with ease: trade tokens, manage wallets, create vaults, and stake—all in one place."
+    },
+    {
+      "id": "gh:HRZht/Bitquant-Auto-Bot",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "HRZht/Bitquant-Auto-Bot",
+      "url": "https://github.com/HRZht/Bitquant-Auto-Bot",
+      "publishedAt": "2026-02-13T19:39:10Z",
+      "score": 67.94571041666667,
+      "tags": [
+        "ai",
+        "airdrop",
+        "bitquant",
+        "bitquant-auto-bot",
+        "bitquant-bot",
+        "bot",
+        "nodejs",
+        "solana"
+      ],
+      "summary": "🤖 Automate your interactions on Bitquant.io with our bot for managing Solana wallets, earning points, and solving CAPTCHAs effortlessly."
+    },
+    {
+      "id": "gh:erinasage672/Mev-Bot_Ethereum_network",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "erinasage672/Mev-Bot_Ethereum_network",
+      "url": "https://github.com/erinasage672/Mev-Bot_Ethereum_network",
+      "publishedAt": "2026-02-13T19:33:12Z",
+      "score": 67.93743675925926,
+      "tags": [
+        "ai",
+        "defi",
+        "bot",
+        "bsc",
+        "contracts",
+        "crypto-bot",
+        "cryptocurrency",
+        "eth"
+      ],
+      "summary": "🤖 Automate Ethereum trading with AI-driven strategies, real-time analytics, and secure wallet management for effective DeFi trading."
+    },
+    {
+      "id": "gh:erinasage672/Mev-Bot_Ethereum_network",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "erinasage672/Mev-Bot_Ethereum_network",
+      "url": "https://github.com/erinasage672/Mev-Bot_Ethereum_network",
+      "publishedAt": "2026-02-13T19:33:12Z",
+      "score": 67.93742335648147,
+      "tags": [
+        "ai",
+        "defi",
+        "bot",
+        "bsc",
+        "contracts",
+        "crypto-bot",
+        "cryptocurrency",
+        "eth"
+      ],
+      "summary": "🤖 Automate Ethereum trading with AI-driven strategies, real-time analytics, and secure wallet management for effective DeFi trading."
+    },
+    {
+      "id": "gh:rumyasha/coin-indexing-app-backend",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "rumyasha/coin-indexing-app-backend",
+      "url": "https://github.com/rumyasha/coin-indexing-app-backend",
+      "publishedAt": "2026-02-13T19:33:10Z",
+      "score": 67.93739046296297,
+      "tags": [
+        "token",
+        "bot",
+        "dex",
+        "index",
+        "market",
+        "solana",
+        "swagger",
+        "swap"
+      ],
+      "summary": "📈 Index and monitor Solana tokens with a fast backend service featuring real-time updates and a RESTful API for seamless integration."
+    },
+    {
+      "id": "gh:Mikelzlll/migraine-solana-pumpfun-aio-bot",
+      "kind": "github_repo",
+      "sourceId": "solana-ai",
+      "sourceLabel": "GitHub: AI x Solana",
+      "title": "Mikelzlll/migraine-solana-pumpfun-aio-bot",
+      "url": "https://github.com/Mikelzlll/migraine-solana-pumpfun-aio-bot",
+      "publishedAt": "2026-02-13T19:32:48Z",
+      "score": 67.93686780092592,
+      "tags": [
+        "token",
+        "ai",
+        "bundler",
+        "copytrade",
+        "solana",
+        "solana-memecoin-sniper-bot",
+        "solana-token-launcher",
+        "solanamevbot"
+      ],
+      "summary": "🚀 Manage and trade Solana and Pump.Fun assets efficiently with our all-in-one bot for tracking, importing wallets, and launching tokens."
+    },
+    {
+      "id": "gh:corabelbrachiate350/jupiter-launchpad-LFG",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "corabelbrachiate350/jupiter-launchpad-LFG",
+      "url": "https://github.com/corabelbrachiate350/jupiter-launchpad-LFG",
+      "publishedAt": "2026-02-13T19:31:35Z",
+      "score": 67.93519138888888,
+      "tags": [
+        "ecosystem",
+        "gain",
+        "jupiter",
+        "launchpad",
+        "lfg",
+        "liquidity",
+        "platform",
+        "project"
+      ],
+      "summary": "🚀 Discover and launch new Solana projects with Jupiter Launchpad, enhancing visibility and liquidity for early-stage developments."
+    },
+    {
+      "id": "gh:ullaunencouraging810/Solana-Token-Indexing-Service",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "ullaunencouraging810/Solana-Token-Indexing-Service",
+      "url": "https://github.com/ullaunencouraging810/Solana-Token-Indexing-Service",
+      "publishedAt": "2026-02-13T19:31:05Z",
+      "score": 67.93449694444445,
+      "tags": [
+        "token",
+        "ai",
+        "bot",
+        "defi",
+        "dex",
+        "index",
+        "market",
+        "real-time"
+      ],
+      "summary": "🪙 Track and monitor Solana blockchain tokens in real-time with a powerful indexing service, featuring notifications and a user-friendly API."
+    },
+    {
+      "id": "gh:Talonwarhawksmackit/flur3",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "Talonwarhawksmackit/flur3",
+      "url": "https://github.com/Talonwarhawksmackit/flur3",
+      "publishedAt": "2026-02-13T19:15:18Z",
+      "score": 67.91257564814815,
+      "tags": [
+        "ai",
+        "nft",
+        "ai-nft",
+        "ai-powered",
+        "blockchain",
+        "caddy",
+        "dao",
+        "docker"
+      ],
+      "summary": "🪙 Build an AI-powered liquidity layer for NFTs with FLUR3, featuring a seamless borrow/lend/earn experience and responsive Web3-ready components."
+    },
+    {
+      "id": "gh:Morbykat/bitcoin-ethereum",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "Morbykat/bitcoin-ethereum",
+      "url": "https://github.com/Morbykat/bitcoin-ethereum",
+      "publishedAt": "2026-02-13T19:14:52Z",
+      "score": 67.9119737962963,
+      "tags": [
+        "ai",
+        "atomic",
+        "bitcoin",
+        "book",
+        "browser",
+        "btc",
+        "cryptocurrencies",
+        "cryptocurrency"
+      ],
+      "summary": "⚡ Explore the bitcoin-ethereum project, offering a clear understanding of blockchain units and the valuation of Bitcoin in the digital currency landscape."
+    },
+    {
+      "id": "gh:MahdiDirany/Mev-Bot_Ethereum_network",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "MahdiDirany/Mev-Bot_Ethereum_network",
+      "url": "https://github.com/MahdiDirany/Mev-Bot_Ethereum_network",
+      "publishedAt": "2026-02-13T19:14:22Z",
+      "score": 67.91127935185185,
+      "tags": [
+        "ai",
+        "defi",
+        "blockchain",
+        "bsc",
+        "contracts",
+        "crypto-bot",
+        "cryptocurrency",
+        "dex"
+      ],
+      "summary": "🤖 Automate Ethereum trading with an AI-driven bot for smart DeFi strategies, real-time analytics, and secure wallet management."
+    },
+    {
+      "id": "gh:Whillyyyy/Flashloan-Arbitrage-Bot",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "Whillyyyy/Flashloan-Arbitrage-Bot",
+      "url": "https://github.com/Whillyyyy/Flashloan-Arbitrage-Bot",
+      "publishedAt": "2026-02-13T19:10:57Z",
+      "score": 67.90653398148149,
+      "tags": [
+        "defi",
+        "0block",
+        "aave-protocol",
+        "arbitrage",
+        "arbitragebot",
+        "bonkfun",
+        "bundler",
+        "copy"
+      ],
+      "summary": "💰 Execute profitable arbitrage with the Flashloan-Arbitrage bot, leveraging flash loans to capitalize on price differences across DeFi platforms."
+    },
+    {
+      "id": "gh:pulkitpal/defi-protocol-sdk",
+      "kind": "github_repo",
+      "sourceId": "solana-defi",
+      "sourceLabel": "GitHub: DeFi on Solana",
+      "title": "pulkitpal/defi-protocol-sdk",
+      "url": "https://github.com/pulkitpal/defi-protocol-sdk",
+      "publishedAt": "2026-02-13T19:08:46Z",
+      "score": 67.90350157407407,
+      "tags": [
+        "ai",
+        "defi",
+        "acp",
+        "csharp",
+        "dex",
+        "erc-20",
+        "ethereum",
+        "ethereum-wallet"
+      ],
+      "summary": "🚀 Build and integrate decentralized finance applications easily with the defi-protocol-sdk for seamless blockchain interaction."
+    },
+    {
+      "id": "gh:duongeasdfa/Solana-Token-Creation-Platform",
+      "kind": "github_repo",
+      "sourceId": "token-extensions",
+      "sourceLabel": "GitHub: Token-2022 / Token Extensions",
+      "title": "duongeasdfa/Solana-Token-Creation-Platform",
+      "url": "https://github.com/duongeasdfa/Solana-Token-Creation-Platform",
+      "publishedAt": "2026-02-13T18:39:36Z",
+      "score": 67.8630038888889,
+      "tags": [
+        "token",
+        "nextjs",
+        "platform",
+        "pumpdotfun",
+        "raydium",
+        "solana",
+        "solana-token",
+        "spl-token"
+      ],
+      "summary": "Token 2022 Creation Platform"
+    },
+    {
+      "id": "gh:Gitdigital-products/solana-kyc-compliance-sdk",
+      "kind": "github_repo",
+      "sourceId": "token-extensions",
+      "sourceLabel": "GitHub: Token-2022 / Token Extensions",
+      "title": "Gitdigital-products/solana-kyc-compliance-sdk",
+      "url": "https://github.com/Gitdigital-products/solana-kyc-compliance-sdk",
+      "publishedAt": "2026-02-05T09:23:48Z",
+      "score": 55.862271991641066,
+      "tags": [
+        "token",
+        "ai",
+        "kyc-api",
+        "kyc-integrations",
+        "kyc-provider",
+        "kyc-service",
+        "kyc-verification",
+        "onchain"
+      ],
+      "summary": "Open-source SDK for enforcing KYC/AML compliance directly at the token level on Solana using Token Extensions (Transfer Hook & Permanent Delegate). Includes a Rust on-chain program, TypeScript SDK, and Compliance Registr"
+    },
+    {
+      "id": "rss:helius-blog:https://www.helius.dev/blog/introducing-gatekeeper",
+      "kind": "rss_post",
+      "sourceId": "helius-blog",
+      "sourceLabel": "Helius Blog",
+      "title": "Introducing Gatekeeper: The Helius Edge Gateway",
+      "url": "https://www.helius.dev/blog/introducing-gatekeeper",
+      "publishedAt": "2026-02-11T21:25:00.000Z",
+      "score": 54.092728541666666,
+      "tags": [
+        "ai",
+        "payments"
+      ],
+      "summary": "Today, we announce the release of Gatekeeper, our new edge gateway. Customers accessing Helius through Gatekeeper on top-tier providers can achieve sub-millisecond responses.\nEliminating our edge latency unlocks the true speed of our core APIs and services. Response time improvem"
+    },
+    {
+      "id": "gh:akash-R-A-J/idmap-prism",
+      "kind": "github_repo",
+      "sourceId": "token-extensions",
+      "sourceLabel": "GitHub: Token-2022 / Token Extensions",
+      "title": "akash-R-A-J/idmap-prism",
+      "url": "https://github.com/akash-R-A-J/idmap-prism",
+      "publishedAt": "2026-02-02T13:10:20Z",
+      "score": 45.405689074074076,
+      "tags": [
+        "token",
+        "blockchain",
+        "cryptography",
+        "identity",
+        "mpc",
+        "privacy",
+        "proof-of-funds",
+        "rust"
+      ],
+      "summary": "Privacy-preserving proof engine for Solana using threshold MPC, ZK proofs, and Token-2022 confidential transfers"
+    },
+    {
+      "id": "rss:helius-blog:https://www.helius.dev/blog/agave-v3-1",
+      "kind": "rss_post",
+      "sourceId": "helius-blog",
+      "sourceLabel": "Helius Blog",
+      "title": "Agave 3.1 Update: All You Need to Know",
+      "url": "https://www.helius.dev/blog/agave-v3-1",
+      "publishedAt": "2026-02-04T16:54:20.189Z",
+      "score": 39.716806990740736,
+      "tags": [
+        "token",
+        "ai",
+        "defi",
+        "payments"
+      ],
+      "summary": "Many thanks to 0xIchigo and Brian Wong for reviewing earlier versions of this work.\nIntroduction\nAgave v3.1, the latest evolution of the Solana Agave client, is here! This update introduces a broad set of upgrades that improve client performance, validator operations, and the dev"
+    }
+  ]
+}

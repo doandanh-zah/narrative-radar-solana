@@ -12,15 +12,21 @@ function getArg(flag: string): string | null {
   return process.argv[idx + 1] || null;
 }
 
-function groupByTag(items: RadarItem[]): Map<string, RadarItem[]> {
+function primaryTag(it: RadarItem): string {
+  // Pick a single tag per item to avoid the same evidence appearing in many narratives.
+  const tags = it.tags.length ? it.tags : ['misc'];
+  const priority = ['ai', 'token', 'defi', 'anchor', 'payments', 'mobile', 'depin', 'nft', 'misc'];
+  for (const p of priority) if (tags.includes(p)) return p;
+  return tags[0] || 'misc';
+}
+
+function groupByPrimaryTag(items: RadarItem[]): Map<string, RadarItem[]> {
   const m = new Map<string, RadarItem[]>();
   for (const it of items) {
-    const tags = it.tags.length ? it.tags : ['misc'];
-    for (const t of tags) {
-      const arr = m.get(t) || [];
-      arr.push(it);
-      m.set(t, arr);
-    }
+    const t = primaryTag(it);
+    const arr = m.get(t) || [];
+    arr.push(it);
+    m.set(t, arr);
   }
   for (const [t, arr] of m.entries()) arr.sort((a, b) => b.score - a.score);
   return m;
@@ -83,7 +89,7 @@ function ideasForTag(tag: string): Narrative['ideas'] {
 }
 
 function buildNarratives(items: RadarItem[]): Narrative[] {
-  const byTag = groupByTag(items);
+  const byTag = groupByPrimaryTag(items);
 
   const narratives: Narrative[] = [];
   for (const [tag, arr] of byTag.entries()) {
@@ -92,9 +98,9 @@ function buildNarratives(items: RadarItem[]): Narrative[] {
     const evidence = top.slice(0, 5).map((x) => ({ title: x.title, url: x.url, sourceLabel: x.sourceLabel }));
 
     const why: string[] = [];
-    if (top.some((x) => x.kind === 'github_repo')) why.push('Increased developer activity (recently pushed repositories).');
-    if (top.some((x) => x.kind === 'rss_post')) why.push('Multiple recent ecosystem write-ups / announcements.');
-    why.push('Ranked by a simple velocity score (recency + lightweight popularity).');
+    if (top.some((x) => x.kind === 'github_repo')) why.push('Increased developer activity (recent pushes + star-weighted scoring).');
+    if (top.some((x) => x.kind === 'rss_post')) why.push('Recent ecosystem write-ups / announcements in the last 14 days.');
+    why.push('Ranked by a heuristic velocity score (recency + lightweight popularity).');
 
     narratives.push({
       id: `narrative:${tag}`,
@@ -129,6 +135,8 @@ async function main() {
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2));
   console.log(`Wrote ${outPath}`);
+  // Ensure clean exit in CI/tool runners.
+  process.exit(0);
 }
 
 main().catch((e) => {

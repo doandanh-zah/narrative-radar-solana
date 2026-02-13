@@ -18,5 +18,5 @@ yarn-error.log*
 .vercel
 
 # data artifacts
-web/public/data/*.json
-!web/public/data/.gitkeep
+# Keep latest.json committed for demo/submission reproducibility.
+# (If it gets too noisy later we can switch to build-time generation.)
