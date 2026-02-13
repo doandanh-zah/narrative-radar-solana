@@ -1,0 +1,22 @@
+# deps
+node_modules
+
+# next
+.next
+out
+
+# env
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel
+
+# data artifacts
+web/public/data/*.json
+!web/public/data/.gitkeep

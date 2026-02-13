@@ -7,6 +7,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "radar:generate": "tsx scripts/generate.ts",
+    "radar:dev": "tsx scripts/generate.ts --out web/public/data/latest.json && (cd web && npm run dev)"
+  },
+  "description": "A narrative detection + idea generation tool for the Solana ecosystem.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doandanh-zah/narrative-radar-solana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doandanh-zah/narrative-radar-solana/issues"
+  },
+  "homepage": "https://github.com/doandanh-zah/narrative-radar-solana#readme",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "rss-parser": "^3.13.0",
+    "tsx": "^4.21.0",
+    "zod": "^4.3.6"
   }
 }
