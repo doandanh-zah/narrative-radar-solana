@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  /* Zah preference: flat pastel purple background with light texture (no gradients). */
-  --background: #efe8ff;
-  --foreground: #120b22;
+  /* Professional palette: soft neutral-lilac base + dark slate text */
+  --background: #f7f5ff;
+  --foreground: #0f172a;
+  --muted: rgba(15, 23, 42, 0.60);
+  --card: rgba(255, 255, 255, 0.70);
+  --border: rgba(15, 23, 42, 0.10);
+  --accent: #6d28d9;
 }
 
 @theme inline {
@@ -24,9 +28,9 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0);
-  background-size: 22px 22px;
-  opacity: 0.25;
+  background-image: radial-gradient(circle at 1px 1px, rgba(15,23,42,0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+  opacity: 0.18;
 }
 
 code, pre {

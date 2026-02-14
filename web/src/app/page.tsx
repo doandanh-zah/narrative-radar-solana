@@ -44,7 +44,7 @@ export default function Home() {
           <div className="flex items-center justify-between gap-4">
             <div>
               <h1 className="text-3xl sm:text-4xl font-black tracking-tight">Narrative Radar</h1>
-              <p className="text-black/60 mt-1">Solana signals → narratives → 3–5 build ideas (fortnightly)</p>
+              <p className="text-black/60 mt-1">Solana signals → narratives → build ideas (fortnightly)</p>
             </div>
             <div className="hidden sm:flex gap-2">
               <Pill>Explainable</Pill>
@@ -112,7 +112,7 @@ export default function Home() {
                 <ul className="mt-2 space-y-1 text-sm">
                   {n.evidence.slice(0, 3).map((e) => (
                     <li key={e.url} className="text-white/70">
-                      <a className="hover:underline text-[#FFD700]" href={e.url} target="_blank" rel="noreferrer">
+                      <a className="hover:underline text-[#6D28D9]" href={e.url} target="_blank" rel="noreferrer">
                         {e.title}
                       </a>
                       <span className="text-white/40"> — {e.sourceLabel}</span>
