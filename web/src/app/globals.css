@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  /* Zah preference: flat pale-green background with light texture (no gradients). */
-  --background: #d8f3dc;
-  --foreground: #0b1411;
+  /* Zah preference: flat pastel purple background with light texture (no gradients). */
+  --background: #efe8ff;
+  --foreground: #120b22;
 }
 
 @theme inline {
