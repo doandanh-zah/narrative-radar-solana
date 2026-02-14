@@ -19,7 +19,7 @@ type RadarOutput = {
 
 function Pill({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/90 backdrop-blur">
+    <span className="inline-flex items-center rounded-full border border-black/10 bg-white/60 px-3 py-1 text-xs text-black/80 backdrop-blur">
       {children}
     </span>
   );
@@ -38,20 +38,13 @@ export default function Home() {
   const top = useMemo(() => (data?.narratives || []).slice(0, 8), [data]);
 
   return (
-    <main className="min-h-screen bg-[#07070B] text-white">
-      <div className="pointer-events-none fixed inset-0 overflow-hidden">
-        <div className="absolute -top-40 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-fuchsia-500/20 blur-3xl" />
-        <div className="absolute top-20 -left-40 h-[520px] w-[520px] rounded-full bg-cyan-400/20 blur-3xl" />
-        <div className="absolute bottom-0 right-0 h-[520px] w-[520px] rounded-full bg-yellow-300/10 blur-3xl" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.06)_1px,transparent_0)] [background-size:26px_26px] opacity-30" />
-      </div>
-
+    <main className="min-h-screen">
       <div className="relative mx-auto max-w-6xl px-5 py-10">
         <header className="flex flex-col gap-3">
           <div className="flex items-center justify-between gap-4">
             <div>
               <h1 className="text-3xl sm:text-4xl font-black tracking-tight">Narrative Radar</h1>
-              <p className="text-white/60 mt-1">Solana signals → narratives → 3–5 build ideas (fortnightly)</p>
+              <p className="text-black/60 mt-1">Solana signals → narratives → 3–5 build ideas (fortnightly)</p>
             </div>
             <div className="hidden sm:flex gap-2">
               <Pill>Explainable</Pill>
@@ -60,13 +53,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2 text-sm text-white/60">
+          <div className="flex flex-wrap gap-2 text-sm text-black/60">
             {data ? (
               <>
                 <Pill>Window: {data.window.days} days</Pill>
                 <Pill>Generated: {new Date(data.generatedAt).toUTCString()}</Pill>
                 <a
-                  className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/90 hover:bg-white/10"
+                  className="inline-flex items-center rounded-full border border-black/10 bg-white/60 px-3 py-1 text-xs text-black/80 hover:bg-white"
                   href="https://github.com/doandanh-zah/narrative-radar-solana"
                   target="_blank"
                   rel="noreferrer"
